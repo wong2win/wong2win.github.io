@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Wolfstein"
+title                    : "Castle Black"
 title_separator          : "-"
-name                     : "Gerald"
+name                     : "Wong2win"
 description              : "yet another blog site."
 url                      : "https://wong2win.githbub.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -100,10 +100,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Gerald"
-  avatar           : "/assets/images/bio-photo.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A normal person."
-  location         : "Somewhere on the earth"
+  name             : "灼眼的白灵"
+  avatar           : "/assets/images/bio-photo.png"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "无业游民｜伪车万厨|喜欢看奇幻科幻小说..."
+  location         : "Somewhere on the Earth"
   email            : 
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -123,11 +123,11 @@ author:
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
-  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
+  steam            : "Gerald_the_Bald"# "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
   twitter          : "4winterfell"
   vine             :
-  weibo            : "geraltofwinterfell"
+  weibo            : "ghostofwinterfell"
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
 
@@ -260,12 +260,19 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "/posts/"
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: "/pages/"
+      type: pages
+    values:
+      layout: single
+      author_profile: true

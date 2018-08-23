@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-18T10:46:24+08:00</updated><id>http://localhost:4000/</id><title type="html">Castle Black</title><subtitle>yet another blog site.</subtitle><author><name>灼眼的白灵</name></author><entry><title type="html">My First Post Modified</title><link href="http://localhost:4000/my-first-post-modified/" rel="alternate" type="text/html" title="My First Post Modified" /><published>2018-08-18T00:00:00+08:00</published><updated>2018-08-18T00:00:00+08:00</updated><id>http://localhost:4000/my-first-post-modified</id><content type="html" xml:base="http://localhost:4000/my-first-post-modified/">&lt;h2 id=&quot;toc_0&quot;&gt;My first Post on blog&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-23T11:02:38+08:00</updated><id>http://localhost:4000/</id><title type="html">Castle Black</title><subtitle>yet another blog site.</subtitle><author><name>灼眼的白灵</name></author><entry><title type="html">My First Post Modified</title><link href="http://localhost:4000/my-first-post-modified/" rel="alternate" type="text/html" title="My First Post Modified" /><published>2018-08-18T00:00:00+08:00</published><updated>2018-08-18T00:00:00+08:00</updated><id>http://localhost:4000/my-first-post-modified</id><content type="html" xml:base="http://localhost:4000/my-first-post-modified/">&lt;h2 id=&quot;toc_0&quot;&gt;My first Post on blog&lt;/h2&gt;
 
 &lt;p&gt;(　ﾟдﾟ)虽然早就计划弄个blog了却一直没有行动&lt;br&gt;
 总之，俺终于有自己的blog了！  &lt;/p&gt;
@@ -56,7 +56,7 @@ Github服务器给叫&lt;code&gt;***.github.io&lt;/code&gt;的repo配了&lt;a hr
 &lt;p&gt;“写这个搭建过程的时候其实是在回忆自己昨天干了些啥，打个比方的话相当于重新做了一次作业，巩固了昨天所学的知识！”  &lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&amp;quot;这么想就会感觉自己没浪费这一天了&amp;quot;，放学回家路上，我如此安慰着自己...&lt;/p&gt;</content><author><name>灼眼的白灵</name></author><summary type="html">My first Post on blog</summary></entry><entry><title type="html">My First Post On Blog!</title><link href="http://localhost:4000/my-first-post-on-blog!/" rel="alternate" type="text/html" title="My First Post On Blog!" /><published>2018-08-13T00:00:00+08:00</published><updated>2018-08-13T00:00:00+08:00</updated><id>http://localhost:4000/my-first-post-on-blog!</id><content type="html" xml:base="http://localhost:4000/my-first-post-on-blog!/">&lt;p&gt;##My first Post on blog##&lt;/p&gt;
+&lt;p&gt;&amp;quot;这么想就会感觉自己没浪费这一天了&amp;quot;，放学回家路上，我如此安慰着自己...&lt;/p&gt;</content><author><name>灼眼的白灵</name></author><summary type="html">My first Post on blog</summary></entry><entry><title type="html">My First Post On Blog!</title><link href="http://localhost:4000/my-first-post-on-blog!/" rel="alternate" type="text/html" title="My First Post On Blog!" /><published>2018-08-13T00:00:00+08:00</published><updated>2018-08-13T00:00:00+08:00</updated><id>http://localhost:4000/my-first-post-on-blog!</id><content type="html" xml:base="http://localhost:4000/my-first-post-on-blog!/">&lt;h2 id=&quot;my-first-post-on-blog&quot;&gt;My first Post on blog&lt;/h2&gt;
 
 &lt;p&gt;(　ﾟдﾟ)虽然早就计划弄个blog了却一直没有行动&lt;br /&gt;
 总之，俺终于有自己的blog了！&lt;/p&gt;
@@ -67,13 +67,13 @@ Github服务器给叫&lt;code&gt;***.github.io&lt;/code&gt;的repo配了&lt;a hr
 (结果一下午就这么过去了…&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;###准备材料：&lt;/p&gt;
+&lt;h3 id=&quot;准备材料&quot;&gt;准备材料：&lt;/h3&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1.一台能上网的电脑
 2.GitHub帐号一个
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;###副标题好难写啊ˊ_&amp;gt;ˋ
-作为一个GitHub Pages版的博客，github很贴心的提供了运行的服务器。&lt;/p&gt;
+&lt;h3 id=&quot;副标题好难写啊ˊ_ˋ&quot;&gt;副标题好难写啊ˊ_&amp;gt;ˋ&lt;/h3&gt;
+&lt;p&gt;作为一个GitHub Pages版的博客，github很贴心的提供了运行的服务器。&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;大致胡扯一下&lt;strong&gt;原理&lt;/strong&gt;：&lt;br /&gt;
 Github服务器给叫&lt;code class=&quot;highlighter-rouge&quot;&gt;***.github.io&lt;/code&gt;的repo配了&lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll&lt;/a&gt;，一个静态页面生成器。&lt;br /&gt;
@@ -81,7 +81,7 @@ Github服务器给叫&lt;code class=&quot;highlighter-rouge&quot;&gt;***.github.
 而GitHub负责存储这些静态资源和提供Jekyll服务。&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;####所以我们要做的只有&lt;/p&gt;
+&lt;h4 id=&quot;所以我们要做的只有&quot;&gt;所以我们要做的只有&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;(可选,但强烈推荐)安装一大堆&lt;a href=&quot;https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/&quot;&gt;东西&lt;/a&gt;;(如果想在本地编辑文件预览效果的话)&lt;/li&gt;
@@ -89,7 +89,7 @@ Github服务器给叫&lt;code class=&quot;highlighter-rouge&quot;&gt;***.github.
   &lt;li&gt;用&lt;a href=&quot;&quot;&gt;markdown&lt;/a&gt;写博文页面;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;####当然，也许可以简化(真的是简化…)一下&lt;/p&gt;
+&lt;h4 id=&quot;当然也许可以简化真的是简化一下&quot;&gt;当然，也许可以简化(真的是简化…)一下&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mkdir YOUR_GITHUB_ID.github.io&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;git init&lt;/code&gt;;&lt;/li&gt;
@@ -108,4 +108,4 @@ Github服务器给叫&lt;code class=&quot;highlighter-rouge&quot;&gt;***.github.
   &lt;p&gt;“写这个搭建过程的时候其实是在回忆自己昨天干了些啥，打个比方的话相当于重新做了一次作业，巩固了昨天所学的知识！”&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;“这么想就会感觉自己没浪费这一天了”，放学回家路上，我如此安慰着自己…&lt;/p&gt;</content><author><name>灼眼的白灵</name></author><summary type="html">##My first Post on blog## (　ﾟдﾟ)虽然早就计划弄个blog了却一直没有行动 总之，俺终于有自己的blog了！ 好像有很多感想又不知道该写点啥… 稍微写下这个GitHub Pages搭建过程.md好了 (顺便练习下markdown语法… (结果一下午就这么过去了…</summary></entry></feed>
+&lt;p&gt;“这么想就会感觉自己没浪费这一天了”，放学回家路上，我如此安慰着自己…&lt;/p&gt;</content><author><name>灼眼的白灵</name></author><summary type="html">My first Post on blog (　ﾟдﾟ)虽然早就计划弄个blog了却一直没有行动 总之，俺终于有自己的blog了！ 好像有很多感想又不知道该写点啥… 稍微写下这个GitHub Pages搭建过程.md好了 (顺便练习下markdown语法… (结果一下午就这么过去了…</summary></entry></feed>

@@ -1,4 +1,4 @@
-##My first Post on blog##
+## My first Post on blog##
   
 (　ﾟдﾟ)虽然早就计划弄个blog了却一直没有行动  
 总之，俺终于有自己的blog了！  
@@ -7,26 +7,26 @@
 >(顺便练习下markdown语法...   
 >(结果一下午就这么过去了... 
 
-###准备材料：
+### 准备材料：
 
 ```
 1.一台能上网的电脑
 2.GitHub帐号一个
 ```
-###副标题好难写啊ˊ_>ˋ
+### 副标题好难写啊ˊ_>ˋ
 作为一个GitHub Pages版的博客，github很贴心的提供了运行的服务器。  
 >大致胡扯一下**原理**：  
 >Github服务器给叫`***.github.io`的repo配了[Jekyll](https://github.com/jekyll/jekyll)，一个静态页面生成器。  
 >简单来说就是按照[特定目录结构](https://jekyllrb.com/docs/structure/)存东西(博文.md,图片.png啥的)，再修改一些[配置](https://jekyllrb.com/docs/configuration/)文件，Jekyll就会把这些东西揉成一个静态站点了。  
 >而GitHub负责存储这些静态资源和提供Jekyll服务。  
 
-####所以我们要做的只有  
+#### 所以我们要做的只有  
 
 * (可选,但强烈推荐)安装一大堆[东西](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/);(如果想在本地编辑文件预览效果的话)
 * 上面说的很[简单](http://jmcglone.com/guides/github-pages/)(也可以很[复杂](https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site/)...)的配置;  
 * 用[markdown]()写博文页面;  
 
-####当然，也许可以简化(真的是简化...)一下
+#### 当然，也许可以简化(真的是简化...)一下
 
 * `mkdir YOUR_GITHUB_ID.github.io`, `git init`;
 * 找到一个你比较喜欢的别人的GitHub Page页面，进repo [fork](https://help.github.com/articles/fork-a-repo/)之; 

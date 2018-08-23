@@ -1,4 +1,62 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-13T17:52:04+08:00</updated><id>http://localhost:4000/</id><title type="html">Castle Black</title><subtitle>yet another blog site.</subtitle><author><name>灼眼的白灵</name></author><entry><title type="html">My First Post On Blog!</title><link href="http://localhost:4000/my-first-post-on-blog!/" rel="alternate" type="text/html" title="My First Post On Blog!" /><published>2018-08-13T00:00:00+08:00</published><updated>2018-08-13T00:00:00+08:00</updated><id>http://localhost:4000/my-first-post-on-blog!</id><content type="html" xml:base="http://localhost:4000/my-first-post-on-blog!/">&lt;p&gt;##My first Post on blog##&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-18T10:46:24+08:00</updated><id>http://localhost:4000/</id><title type="html">Castle Black</title><subtitle>yet another blog site.</subtitle><author><name>灼眼的白灵</name></author><entry><title type="html">My First Post Modified</title><link href="http://localhost:4000/my-first-post-modified/" rel="alternate" type="text/html" title="My First Post Modified" /><published>2018-08-18T00:00:00+08:00</published><updated>2018-08-18T00:00:00+08:00</updated><id>http://localhost:4000/my-first-post-modified</id><content type="html" xml:base="http://localhost:4000/my-first-post-modified/">&lt;h2 id=&quot;toc_0&quot;&gt;My first Post on blog&lt;/h2&gt;
+
+&lt;p&gt;(　ﾟдﾟ)虽然早就计划弄个blog了却一直没有行动&lt;br&gt;
+总之，俺终于有自己的blog了！  &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;好像有很多感想又不知道该写点啥...&lt;br&gt;
+稍微写下这个GitHub Pages搭建过程.md好了&lt;br&gt;
+(顺便练习下markdown语法...&lt;br&gt;
+(结果一下午就这么过去了... &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;toc_1&quot;&gt;准备材料：&lt;/h3&gt;
+
+&lt;div&gt;&lt;pre&gt;&lt;code class=&quot;language-none&quot;&gt;1.一台能上网的电脑
+2.GitHub帐号一个&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;toc_2&quot;&gt;副标题好难写啊ˊ_&amp;gt;ˋ&lt;/h3&gt;
+
+&lt;p&gt;作为一个GitHub Pages版的博客，github很贴心的提供了运行的服务器。  &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;大致胡扯一下&lt;strong&gt;原理&lt;/strong&gt;：&lt;br&gt;
+Github服务器给叫&lt;code&gt;***.github.io&lt;/code&gt;的repo配了&lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll&lt;/a&gt;，一个静态页面生成器。&lt;br&gt;
+简单来说就是按照&lt;a href=&quot;https://jekyllrb.com/docs/structure/&quot;&gt;特定目录结构&lt;/a&gt;存东西(博文.md,图片.png啥的)，再修改一些&lt;a href=&quot;https://jekyllrb.com/docs/configuration/&quot;&gt;配置&lt;/a&gt;文件，Jekyll就会把这些东西揉成一个静态站点了。&lt;br&gt;
+而GitHub负责存储这些静态资源和提供Jekyll服务。  &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;toc_3&quot;&gt;所以我们要做的只有&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(可选,但强烈推荐)安装一大堆&lt;a href=&quot;https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/&quot;&gt;东西&lt;/a&gt;;(如果想在本地编辑文件预览效果的话)&lt;/li&gt;
+&lt;li&gt;上面说的很&lt;a href=&quot;http://jmcglone.com/guides/github-pages/&quot;&gt;简单&lt;/a&gt;(也可以很&lt;a href=&quot;https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site/&quot;&gt;复杂&lt;/a&gt;...)的配置;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;用&lt;a href=&quot;&quot;&gt;markdown&lt;/a&gt;写博文页面;&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;toc_4&quot;&gt;当然，也许可以简化(真的是简化...)一下&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;mkdir YOUR_GITHUB_ID.github.io&lt;/code&gt;, &lt;code&gt;git init&lt;/code&gt;;&lt;/li&gt;
+&lt;li&gt;找到一个你比较喜欢的别人的GitHub Page页面，进repo &lt;a href=&quot;https://help.github.com/articles/fork-a-repo/&quot;&gt;fork&lt;/a&gt;之; &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git clone YOUR_FORKED_REPO_URL&lt;/code&gt;到上面新建的目录后进行&amp;quot;个性化的&amp;quot;编辑;&lt;/li&gt;
+&lt;li&gt;用&lt;a href=&quot;&quot;&gt;markdown&lt;/a&gt;写博文页面, 写好了&lt;code&gt;git commit -a&lt;/code&gt;;&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;编辑和博文写完了&lt;code&gt;git commit -m &amp;#39;我做了些啥&amp;#39;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git push -u origin master&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;访问&lt;code&gt;https://YOUR_GITHUB_ID.github.io&lt;/code&gt;看看效果&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;直到写这个搭建过程的时候我才知道这个简单的步骤...感觉浪费了好多时间。  &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;写完这篇发现自己整理知识能力还是太差了，这破文看得懂的人大概也轮不到看我这篇来学Github Pages，看不懂的人看完了还是不知道要弄个GitHub Pages博客需要干啥干啥...只能给自己看看当个笔记—对！&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“写这个搭建过程的时候其实是在回忆自己昨天干了些啥，打个比方的话相当于重新做了一次作业，巩固了昨天所学的知识！”  &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&amp;quot;这么想就会感觉自己没浪费这一天了&amp;quot;，放学回家路上，我如此安慰着自己...&lt;/p&gt;</content><author><name>灼眼的白灵</name></author><summary type="html">My first Post on blog</summary></entry><entry><title type="html">My First Post On Blog!</title><link href="http://localhost:4000/my-first-post-on-blog!/" rel="alternate" type="text/html" title="My First Post On Blog!" /><published>2018-08-13T00:00:00+08:00</published><updated>2018-08-13T00:00:00+08:00</updated><id>http://localhost:4000/my-first-post-on-blog!</id><content type="html" xml:base="http://localhost:4000/my-first-post-on-blog!/">&lt;p&gt;##My first Post on blog##&lt;/p&gt;
 
 &lt;p&gt;(　ﾟдﾟ)虽然早就计划弄个blog了却一直没有行动&lt;br /&gt;
 总之，俺终于有自己的blog了！&lt;/p&gt;

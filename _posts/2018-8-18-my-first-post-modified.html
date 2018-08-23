@@ -1,0 +1,59 @@
+<h2 id="toc_0">My first Post on blog</h2>
+
+<p>(　ﾟдﾟ)虽然早就计划弄个blog了却一直没有行动<br>
+总之，俺终于有自己的blog了！  </p>
+
+<blockquote>
+<p>好像有很多感想又不知道该写点啥...<br>
+稍微写下这个GitHub Pages搭建过程.md好了<br>
+(顺便练习下markdown语法...<br>
+(结果一下午就这么过去了... </p>
+</blockquote>
+
+<h3 id="toc_1">准备材料：</h3>
+
+<div><pre><code class="language-none">1.一台能上网的电脑
+2.GitHub帐号一个</code></pre></div>
+
+<h3 id="toc_2">副标题好难写啊ˊ_&gt;ˋ</h3>
+
+<p>作为一个GitHub Pages版的博客，github很贴心的提供了运行的服务器。  </p>
+
+<blockquote>
+<p>大致胡扯一下<strong>原理</strong>：<br>
+Github服务器给叫<code>***.github.io</code>的repo配了<a href="https://github.com/jekyll/jekyll">Jekyll</a>，一个静态页面生成器。<br>
+简单来说就是按照<a href="https://jekyllrb.com/docs/structure/">特定目录结构</a>存东西(博文.md,图片.png啥的)，再修改一些<a href="https://jekyllrb.com/docs/configuration/">配置</a>文件，Jekyll就会把这些东西揉成一个静态站点了。<br>
+而GitHub负责存储这些静态资源和提供Jekyll服务。  </p>
+</blockquote>
+
+<h4 id="toc_3">所以我们要做的只有</h4>
+
+<ul>
+<li>(可选,但强烈推荐)安装一大堆<a href="https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/">东西</a>;(如果想在本地编辑文件预览效果的话)</li>
+<li>上面说的很<a href="http://jmcglone.com/guides/github-pages/">简单</a>(也可以很<a href="https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site/">复杂</a>...)的配置;<br></li>
+<li>用<a href="">markdown</a>写博文页面;<br></li>
+</ul>
+
+<h4 id="toc_4">当然，也许可以简化(真的是简化...)一下</h4>
+
+<ul>
+<li><code>mkdir YOUR_GITHUB_ID.github.io</code>, <code>git init</code>;</li>
+<li>找到一个你比较喜欢的别人的GitHub Page页面，进repo <a href="https://help.github.com/articles/fork-a-repo/">fork</a>之; </li>
+<li><code>git clone YOUR_FORKED_REPO_URL</code>到上面新建的目录后进行&quot;个性化的&quot;编辑;</li>
+<li>用<a href="">markdown</a>写博文页面, 写好了<code>git commit -a</code>;<br></li>
+<li>编辑和博文写完了<code>git commit -m &#39;我做了些啥&#39;</code></li>
+<li><code>git push -u origin master</code></li>
+<li>访问<code>https://YOUR_GITHUB_ID.github.io</code>看看效果<br></li>
+</ul>
+
+<p>直到写这个搭建过程的时候我才知道这个简单的步骤...感觉浪费了好多时间。  </p>
+
+<hr>
+
+<p>写完这篇发现自己整理知识能力还是太差了，这破文看得懂的人大概也轮不到看我这篇来学Github Pages，看不懂的人看完了还是不知道要弄个GitHub Pages博客需要干啥干啥...只能给自己看看当个笔记—对！</p>
+
+<blockquote>
+<p>“写这个搭建过程的时候其实是在回忆自己昨天干了些啥，打个比方的话相当于重新做了一次作业，巩固了昨天所学的知识！”  </p>
+</blockquote>
+
+<p>&quot;这么想就会感觉自己没浪费这一天了&quot;，放学回家路上，我如此安慰着自己...</p>

@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "灼眼的白灵"
   avatar           : "/assets/images/bio-photo.png"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "无业游民｜伪车万厨|喜欢看奇幻科幻小说..."
+  bio              : "无业游民｜伪车万厨｜喜欢看奇幻科幻小说..."
   location         : "Somewhere on the Earth"
   email            : 
   uri              :
@@ -264,7 +264,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: true
       comments: # true
       share: true
